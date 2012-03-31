@@ -4,7 +4,6 @@
 # 自己紹介
 
 * 名前：松岡 宏満
-* 会社：株式会社W・I・Z
 * ExtJS/Sencha Touch/Titanium/PHPを使ってます
 
 ----
@@ -46,7 +45,6 @@ Compassをインストールすれば一緒にSassもインストールされる
 * サーバサイドインポート
 * Mixins
 * Functions
-* MediaQueries
 
 ----
 
