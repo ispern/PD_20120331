@@ -1,0 +1,5 @@
+@for $i from 1 to 3 {
+    .item2-#{$i} {
+        width: 100px * $i;
+    }
+}

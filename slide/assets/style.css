@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Ricty';
+  src: url('../Ricty.ttf');
+}
+
+pre {
+  -webkit-border-radius: 10px;
+}
+
+pre > code {
+  font-family: 'Ricty';
+  font-size: 20px;
+}
+
+/* Classic Skin */
+
+table#vsTable {
+    position: relative;
+    z-index: 2;
+    border: none;
+    border-bottom: 2px solid #303030;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-right: 1px solid #c7c7c7;
+    width: 100%;
+    font-size: 15px;
+}
+
+table#vsTable td {
+    padding: 10px 0;
+    border-bottom: 1px solid #e7e7e7;
+    vertical-align: middle;
+    text-align: center;
+    background: #f7f7f7;
+    color: #707070;
+}
+
+table#vsTable tr td div {
+    text-align: center;
+}
+
+table#vsTable tr td div.yes, table#vsTable tr td div.no, table#vsTable tr td div.partial {
+    height: 16px;
+}
+
+table#vsTable tr td.cat div, table#vsTable tr td.title div {
+    height: auto;
+}
+
+table#vsTable td.cat div {
+    text-align: left;
+    padding: 0 10px;
+}
+
+table#vsTable td.title {
+    background: #303030;
+    font-size: 16px;
+    color: #f7f7f7;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table#vsTable .cat {
+    text-align: left;
+    background: #eee;
+    border-left: 1px solid #c7c7c7;
+}
+
+table#vsTable td.title.cat {
+    background: none !important;
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    cursor: default !important;
+}
+
+table#vsTable td.title.cat div {
+    display: none;
+}
+
+table#vsTable tr td.cat:hover {
+    background: #fff;
+}
+
+table#vsTable tr td.title:hover {
+    background: #404040;
+}
+
+table#vsTable tr td:hover {
+    background: #fff;
+}
+
+table#vsTable div.yes {
+    background: url(images/yes.png) no-repeat center center;
+}
+
+table#vsTable div.no {
+    background: url(images/no.png) no-repeat center center;
+}
+
+table#vsTable div.partial {
+    background: url(images/partial.png) no-repeat center center;
+}
+
+table#vsTable .title .editable input {
+    color: #fff;
+}
+
+table#vsTable .titleImage {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 90%;
+    float: none;
+    height: auto;
+}
+
+.box-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+}
+
+.box-container div {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}

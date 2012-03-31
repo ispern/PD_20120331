@@ -1,0 +1,7 @@
+#foo {
+  width: 100px;
+  height: 100px;
+}
+#foo #bar {
+  background-color: red;
+}

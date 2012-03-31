@@ -1,0 +1,11 @@
+$value: 'hoge';
+
+p {
+    @if $value == 'hoge' {
+      color: red;
+    } @else if $value == 'foo' {
+      color: blue;
+    } @else {
+      color: black;
+    }
+}
