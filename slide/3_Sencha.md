@@ -255,7 +255,3 @@ compileコマンド時に、config-debug.rbを指定すると非圧縮のCSSフ�
      - stylesheets		// 共有するSASSファイルが入っている
      - templates		// おそらくSencha SDK Toolsで生成するapp.scssのテンプレート
      - compass_init.rb  // Compass実行時に@import 'sencha-touch/default/all'していたら最初に呼ばれるRubyのファイル
-
-----
-
-# ご静聴ありがとうございました
